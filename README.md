@@ -1,14 +1,15 @@
-# 🌌 Celestial Café - Mobile Game
+# 🌌 Celestial Café - Cosmic Trading Hub
 
-Welcome to **Celestial Café**, a charming mobile game where you run a mystical café in the cosmos! Serve cosmic drinks to celestial customers, unlock new recipes, and build your interstellar café empire.
+Welcome to **Celestial Café**, a unique mobile game that combines cosmic café management with interstellar trading! Serve cosmic drinks to celestial customers while building your portfolio in the cosmic markets. Where coffee meets cryptocurrency in the vast expanse of space! ☕📈
 
 ## ✨ Features
 
 - 🌟 **Cosmic Café Management**: Run your own space café with unique cosmic drinks
-- 🌙 **Customer Types**: Serve regular customers, VIPs, and cosmic beings
-- 🌠 **Drink Brewing System**: Craft legendary drinks with rare ingredients
-- 💫 **Progression System**: Level up and unlock new content
-- 🛍️ **Shop System**: Purchase decorations and upgrades
+- 📊 **Trading System**: Buy and sell cosmic assets in real-time markets
+- 🌙 **Customer Types**: Serve regular customers, VIPs, cosmic beings, and traders
+- 🌠 **Market Effects**: Drinks influence market trends and trading opportunities
+- 💫 **Dual Progression**: Level up both café management and trading skills
+- 🛍️ **Shop System**: Purchase decorations and trading terminals
 - 🌌 **Beautiful UI**: Stunning cosmic-themed interface with smooth animations
 - 📱 **Cross-Platform**: Works on iOS, Android, and Web
 
@@ -17,19 +18,28 @@ Welcome to **Celestial Café**, a charming mobile game where you run a mystical 
 ### Core Mechanics
 - **Customer Queue**: Manage incoming customers with different patience levels
 - **Drink Brewing**: Start brewing drinks and serve them when ready
-- **Resource Management**: Use stardust currency to brew drinks and buy upgrades
+- **Market Trading**: Buy and sell cosmic assets like STAR, NEB, COS tokens
+- **Resource Management**: Use stardust for drinks, cosmic credits for trading
 - **Satisfaction System**: Keep customers happy to earn better tips
-- **Level Progression**: Gain experience and unlock new drinks and features
+- **Dual Progression**: Level up café management and trading separately
 
 ### Customer Types
 - ⭐️ **Regular Customers**: Standard orders with moderate tips
 - 🌟 **VIP Customers**: Higher patience and better tips
 - 🌠 **Cosmic Customers**: Legendary customers with the best rewards
+- 📈 **Trader Customers**: Provide market insights and trading opportunities
 
-### Drink Rarities
-- **Common**: Basic drinks like Stellar Brew and Nebula Nectar
-- **Rare**: Special drinks like Black Hole Blend and Supernova Shot
-- **Legendary**: Ultimate drinks like Celestial Elixir
+### Drink Rarities & Market Effects
+- **Common**: Basic drinks with mild market effects
+- **Rare**: Special drinks with stronger market influence
+- **Legendary**: Ultimate drinks that can significantly impact markets
+
+### Cosmic Assets
+- **STAR**: Stellar Token - Most stable cosmic currency
+- **NEB**: Nebula Coin - Volatile but potentially rewarding
+- **COS**: Cosmic Cash - Premium cosmic currency
+- **QUA**: Quantum Token - Highly volatile quantum currency
+- **VOID**: Void Coin - Mysterious void-based currency
 
 ## 🚀 Quick Start
 
@@ -43,8 +53,8 @@ Welcome to **Celestial Café**, a charming mobile game where you run a mystical 
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/celestial-cafe.git
-cd celestial-cafe
+git clone https://github.com/EsKaye/CelestialCasa.git
+cd CelestialCasa
 ```
 
 2. **Install dependencies**
@@ -75,7 +85,7 @@ npm run web
 
 ### Project Structure
 ```
-celestial-cafe/
+CelestialCasa/
 ├── src/
 │   ├── components/          # Reusable UI components
 │   │   └── ErrorBoundary.tsx
@@ -87,7 +97,8 @@ celestial-cafe/
 │   ├── navigation/         # Navigation configuration
 │   │   └── AppNavigator.tsx
 │   ├── screens/           # Screen components
-│   │   └── GameScreen.tsx
+│   │   ├── GameScreen.tsx
+│   │   └── TradingScreen.tsx
 │   └── store/             # State management
 │       └── gameStore.ts
 ├── assets/                # Images and static files
@@ -110,6 +121,7 @@ celestial-cafe/
 ### State Management
 The app uses **Zustand** for state management with persistent storage:
 - Game progress (level, experience, stardust)
+- Trading portfolio and market data
 - Customer queue and brewing drinks
 - Unlocked content and achievements
 - Settings and preferences
@@ -122,6 +134,8 @@ The app uses **Zustand** for state management with persistent storage:
 - **Accent**: Golden stardust (#FFD700)
 - **Background**: Deep space (#0A0A1F)
 - **Text**: Pure starlight (#FFFFFF)
+- **Success**: Growth green (#4EFF8B)
+- **Error**: Red giant (#FF4E4E)
 
 ### Typography
 - **Primary**: SpaceGrotesk (cosmic, modern)
@@ -170,8 +184,9 @@ The app uses **Zustand** for state management with persistent storage:
 - Test on different device sizes
 - Verify customer spawning and patience mechanics
 - Check drink brewing and serving functionality
-- Test shop purchases and upgrades
-- Verify save/load functionality
+- Test trading mechanics and market updates
+- Verify shop purchases and upgrades
+- Test save/load functionality
 
 ### Automated Testing
 ```bash
@@ -222,8 +237,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Expo** for the amazing development platform
 - **React Native** community for the robust framework
 - **Zustand** for simple and effective state management
-- **Animal Restaurant** for gameplay inspiration
-- All cosmic baristas who contributed to this project
+- **Animal Restaurant** for café management inspiration
+- **Trading platforms** for market mechanics inspiration
+- All cosmic baristas and traders who contributed to this project
 
 ## 🆘 Support
 
@@ -236,9 +252,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **v1.0.0** - Initial release with core café management features
 - **v1.1.0** - Added shop system and decorations
 - **v1.2.0** - Enhanced customer types and progression system
+- **v2.0.0** - **NEW**: Added cosmic trading system and market mechanics
 
 ---
 
-**Celestial Café** - Where cosmic baristas serve stellar brews! ☕✨
+**Celestial Café** - Where cosmic baristas serve stellar brews and trade the stars! ☕✨📈
 
 Made with ❤️ by the Celestial Café team 
